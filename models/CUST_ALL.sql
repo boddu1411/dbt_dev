@@ -1,3 +1,4 @@
+{{ config(materialized='table') }}
 WITH CUST_ALL AS
 (
 SELECT C_CUSTKEY,C_NAME,C_ADDRESS,C_PHONE,C_ACCTBAL 
